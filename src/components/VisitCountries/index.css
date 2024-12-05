@@ -1,0 +1,21 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161624;
+  min-height: 100vh;
+}
+
+.countries-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  overflow-y: auto;
+  max-height: 30%;
+}
+
+.visited-countries-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
